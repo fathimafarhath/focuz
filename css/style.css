@@ -1,49 +1,213 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Fira Sans', sans-serif;
 }
-.navbar{
-    height: 80px;
-    width: 100%;
+
+
+
+/* navigation */
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .navbar-brand img{
-    height: 50px;
-    width: 80px;
-    
+    height: 40px;
+    padding-left: 30px;
+
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+
+}
+.navbar{
+    background:#fff;
+
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* slider */
+
+.slider{
+    width: 100%;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5{
+    color:#fff;
+    font-size: 42px;
+}
+.carousel-inner img{
+    height: 700px;
 }
 
 
-.bg-black{
-    background-color: black;
+/* about */
+
+.about-section h3{
+    font-size: 38px;
 }
 
-.custom-font-h3{
-    font-size: 40px;
-}
-.home-slider h2{
-    font-size: 48px;
-    line-height: auto;
-
-}
-.home-slider .btn-outline-light {
-    font-size: 28px;
-    line-height: normal;
-
-}
 .about-section p{
     font-size: 16px;
     line-height: 28px;
 }
-.service-box h4{
-    font-size: 24px;
+
+.title::before
+{
+    content: '';
+    background: #eb0e50;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(63px);
 }
 
-.contact-section{
+.title::after
+{
+    content: '';
+    background: #eb0e50;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display:block;
+    transform: translateY(8px);
+}
+
+/* course section */
+.courses-section h3{
+    font-size: 38px;
+}
+
+.courses-section{
+    background-color: rgb(230, 234, 236);
+}
+
+.gallery-section h3{
+    font-size: 38px;
+}
+.gallery-section h4{
+    font-size: 16px;
+}
+
+/* testmimonials */
+
+#testimonials h3{
+    font-size: 40px;
+}
+
+#testimonials{
+    background-color: rgb(230, 234, 236);
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+.testimonials .row{
+    margin-top: 30px;
+
+}
+.col-md-4{
+    margin: 40px auto;
+}
+
+.profile{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile img{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid #fff;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+}
+#testimonials span{
+    font-size: 12px;
+    color: #333;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+
+}
+blockquote::before{
+    content: \93;
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+}
+
+blockquote::after{
+    content: \94;
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+} 
+
+.profile:hover
+{
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/* contact */
+
+
+#contact{
     
-    background-size: 100%;
+    background-size: 100%; 
+    background-image: linear-gradient(to right, rgb(59, 57, 57),hsl(0, 0%, 4%));
     background-repeat: no-repeat;
 }
 
+#contact h3{
+    font-size: 38px;
+
+}
 .contact-box .formcontrol{
     height: 50px;
 }
@@ -56,12 +220,37 @@ body{
     line-height: 28px;
 } 
 
-.service-box img{
-    width: 150px;
-   height: 100px;
+
+/* contact section ends */
+
+/* location */
+
+.map-container{
+    overflow:hidden;
+  
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+
+/* footer */
+
+#footer{
+    background: rgb(12, 12, 12);
+    color: #fff;
+    padding: 20px;
 }
 
-@media(max-width:991px){
+
+
+/* @media(max-width:991px){
     #focus-slider .carousel-caption h2 {
         font-size: 35px;
     }
@@ -71,4 +260,4 @@ body{
     .header-section .navbar-brand img{
         width: 200px;
     }
-}
+} */

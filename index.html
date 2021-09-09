@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Focuz</title>
+    <title>CyberCampus</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -14,167 +14,298 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-black">
-    <section class="header-section">
-        <div class="container">
-            <div class="row">
+<body>
 
-                <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-lg navbar-dark">
-                        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                      
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                            <li class="nav-item active pl-2 pr-3">
-                              <a class="nav-link text-uppercase text-white font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item pl-2 pr-3">
-                              <a class="nav-link text-uppercase text-white font-weight-bold" href="#">About</a>
-                            </li>
-                            <li class="nav-item pl-2 pr-3">
-                                <a class="nav-link text-uppercase text-white font-weight-bold" href="#">Service</a>
-                              </li>
-                              <li class="nav-item pl-2 pr-3">
-                                <a class="nav-link text-uppercase text-white font-weight-bold" href="#">Gallery</a>
-                              </li>
-                              <li class="nav-item pl-2 pr-3">
-                                <a class="nav-link text-uppercase text-white font-weight-bold" href="#">Contacts</a>
-                              </li>
-                            
-                            
-                          </ul>
-                          
-                        </div>
-                      </nav>
-                </div>
-            </div>
+  <!-- Navigation bar -->
+<section id="nav-bar">
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="images/CYBER CAMPUS.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">GALLERY</a>
+          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+
+</section>
+
+<!-- Slider -->
+<div id="home" class="slider">
+  <div id="headerSlider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#headerSlider" data-slide-to="1"></li>
+        <li data-target="#headerSlider" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/bannernw1.jpeg">
+              <div class="carousel-caption">
+                  <h5 class="text-white font-weight-bold text-uppercase">History/Experience/Tradition</h5>
+
+              </div>
         </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/bannernw2.jpeg">
+          <div class="carousel-caption">
+              <h5 class="text-white font-weight-bold text-uppercase">Results oriented/ greatness</h5>
 
-    </section>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/bannernw3.jpeg">
+          <div class="carousel-caption">
+              <h5 class="text-white font-weight-bold text-uppercase">Faculty related/ infrastructure</h5>
 
-    <section class="home-slider">
-        <div id="focus-slider" class="carousel slide" data-ride="carousel">
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+</div>
+
+<!-- about section -->
+
+<section id="about" class="about-section pt-4 pb-4 text-center text-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="title text-uppercase pt-3 pb-3 font-weight-bold custom-font-h3">About us</h3>
+        <p class="pb-4 font-weight-normal">An Edu-services Group with an enviable national and international reputation, Shaheen stands tall as a leading beacon for innumerable students across India and elsewhere. Touching and transforming the many lives of students coming under its care and shaping their dreams into concrete realities, Shaheen Group is best known for its extraordinary quality coaching for NEET and other competitive/qualifying exams. Ever since its inception in 1989, owing to its innovation, learner-centric approach and irrefutable commitment Shaheen has grown exponentially: today the Group is a much acclaimed Learning Platform and a force to reckon with, in the Eduscape nationally and globally. With 50 centers across India and a little over 20000 students on roll, the Group is tirelessly marching along the path of excellence and success.<br>The Group has strong academic, philosophical and spiritual moorings, drawing its inspiration from the monumental works of the much celebrated poet Allama Iqbal, popularly known as The Poet of the East. Under the inspiring and dynamic leadership of Dr Abdul Qadeer, the Group aspires to orchestrate a magical transformation of the society, by empowering students with quality education, life-skills and positive orientation towards Life. Like the mythical bird Shaheen that appears in the work of Allama Iqbal, the Group constantly moves with tenacity of purpose, seeking and conquering new heights of excellence and glory.
+        <br>In a nutshell, to call Shaheen as an Edu-services Group may not be fully correct.
+        <br>A Movement for empowering the academic community to embrace a life of nobility, excellence and success.
+      </p>
+      
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- courses section -->
+
+<section id="courses" class="courses-section pt-4 pb-4 text-center text-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="title text-uppercase pt-3 pb-3 font-weight-bold custom-font-h3">Our Courses</h3>
+
+        <img class="course-logo mb-5" src="images/logo2.png" alt="">
+
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="service-box">
+          
+          <img src="images/homenw3.jpeg" class="img-fluid">
+          <h4 class="font-weight-bold pt-4 pb-4 text-uppercase">XI & XII integrated with NEET/JEE/KVPY
+          </h4>
+          
+          <a href="#" class="mb-4 btn btn-danger text-uppercase">Apply Online</a>
+        
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+          <div class="service-box">
             
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="images/camera1.jpeg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2 class="text-white font-weight-bold text-uppercase">Capture your moments</h2>
-                  <a href="#" class="btn btn-outline-light text-uppercase mt-3 mb-5">know more</a>
-               
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="images/camera.jpeg" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2 class="text-white font-weight-bold text-uppercase">Capture your moments<br>with Third Eye</h2>
-                  <a href="#" class="btn btn-outline-light text-uppercase mt-3 mb-5">know more</a>
-               
-                </div>
-              </div>
+            <img src="images/homenw2.jpeg" class="img-fluid">
+            <h4 class="font-weight-bold pt-4 pb-4 text-uppercase">NEET/JEE repeater long term course
+            </h4>
+            
+            <a href="#" class="mb-4 btn btn-danger text-uppercase">Apply Online</a>
+            
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+            
+              <img src="images/homenw3.jpeg" class="img-fluid">
+              <h4 class="font-weight-bold pt-4 pb-4 text-uppercase">NEET/JEE crash short term course
+              </h4>
+              
+              <a href="#" class="mb-4 btn btn-danger text-uppercase">Apply Online</a>
               
             </div>
-            <a class="carousel-control-prev" href="#focus-slider" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#focus-slider" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+    
 
-    </section>
+ <!-- gallery section -->
 
-    <section class="about-section pt-5 pb-5 text-center text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3 class="text-uppercase pb-4 font-weight-bold custom-font-h3">About us</h3>
-            <p class="pb-4 font-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ullam obcaecati libero, eum dicta, sequi corrupti dolores consequuntur veniam nesciunt aliquid ipsam nam amet quos? Dolorum dolorem minima veritatis earum.</p>
-            <a href="#" class="btn btn-success text-uppercase">Read more</a>
-          </div>
+ <section id="gallery" class="gallery-section pt-4 pb-4 text-center text-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="title text-uppercase pt-3 pb-3 font-weight-bold custom-font-h3">Gallery</h3>
+
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="service-box">
+          <img src="images/gallerynw1.jpeg" class="img-fluid">
+          <h4 class="font-weight-bold pt-4 pb-4">Text</h4>
+
+         
+
         </div>
       </div>
+      <div class="col-lg-3 col-md-6">
+          <div class="service-box">
+            <img src="images/gallerynw2.jpeg" class="img-fluid">
+            <h4 class="font-weight-bold pt-4 pb-4">Text</h4>
 
-    </section>
-
-    <section class="service-section pt-5 pb-5 text-center text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3 class="text-uppercase pb-4 font-weight-bold custom-font-h3">Our services</h3>
+            
 
           </div>
-          <div class="col-lg-4 col-md-6">
+      </div>
+      <div class="col-lg-3 col-md-6">
             <div class="service-box">
-              <img src="images/wedding.jpeg" class="img-fluid">
-              <h4 class="font-weight-bold pt-4 pb-4 text-uppercase">wedding photography</h4>
+              <img src="images/gallerynw3.jpeg" class="img-fluid">
+              <h4 class="font-weight-bold pt-4 pb-4">Text</h4>
+
+              
 
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-              <div class="service-box">
-                <img src="images/kids.jpeg" class="img-fluid">
-                <h4 class="font-weight-bold pt-4 pb-4 text-uppercase">kids photography</h4>
-
-              </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-                <div class="service-box">
-                  <img src="images/wild.jpeg" class="img-fluid">
-                  <h4 class="font-weight-bold pt-4 pb-4 text-uppercase">wild photography</h4>
-
-                </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-box">
-              <img src="images/fashion.jpeg" class="img-fluid">
-              <h4 class="font-weight-bold pt-4 pb-4 text-uppercase">fashion photography</h4>
-
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-              <div class="service-box">
-                <img src="images/event.jpeg" class="img-fluid">
-                <h4 class="font-weight-bold pt-4 pb-4 text-uppercase">event photography</h4>
-
-              </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-                <div class="service-box">
-                  <img src="images/cinema.jpeg" class="img-fluid">
-                  <h4 class="font-weight-bold pt-4 pb-4 text-uppercase">cinema photography</h4>
-
-                </div>
-          </div>
-
-          </div>
-
-
-          
-
-
-          
-        </div>
       </div>
 
-    </section>
 
-    <section class="contact-section pt-4 pb-4" style="background-image: url(images/camera4.jpeg);">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3 class="text-uppercase pb-4 font-weight-bold custom-font-h3 text-center text-white pt-5">About us</h3>
+      <div class="col-lg-3 col-md-6">
+        <div class="service-box">
+          <img src="images/galleerynw4.jpeg" class="img-fluid">
+          <h4 class="font-weight-bold pt-4 pb-4">Text</h4>
+
+       
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+          <div class="service-box">
+            <img src="images/gallerynw5.jpeg" class="img-fluid">
+            <h4 class="font-weight-bold pt-4 pb-4">Text</h4>
+
+   
+
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+            <div class="service-box">
+              <img src="images/gallerynw6.jpeg" class="img-fluid">
+              <h4 class="font-weight-bold pt-4 pb-4">Text</h4>
+
+            
+
+            </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="service-box">
+          <img src="images/gallerynw2.jpeg" class="img-fluid">
+          <h4 class="font-weight-bold pt-4 pb-4">Text</h4>
+
+
+
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+          <div class="service-box">
+            <img src="images/gallerynw5.jpeg" class="img-fluid">
+            <h4 class="font-weight-bold pt-4 pb-4">Text</h4>
+
+          </div>
+    </div>
+
+
+    </div>
+
+
+      
+
+
+      
+    </div>
+  </div>
+
+</section>
+
+<!-- testimonials section -->
+
+     
+
+<section id="testimonials">
+  <div class="container">
+      <h3 class="title text-uppercase text-center pt-3 pb-3 font-weight-bold custom-font-h3">Testimonials</h3>
+      <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, magnam.</p>
+      <div class="row">
+          <div class="col-md-4 text-center">
+              <div class="profile">
+                  <img src="images/team1.jfif" alt="" class="user">
+                  <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam debitis saepe amet qui eligendi, recusandae reprehenderit in modi nesciunt aperiam labore eum laborum quisquam beatae consequatur deleniti sunt possimus voluptates?</blockquote>
+                  <h3>Name<br><span>some text</span></h3>
+              </div>
 
           </div>
 
-          <div class="col-lg-6 col-md-8">
+          <div class="col-md-4 text-center">
+              <div class="profile">
+                  <img src="images/team1.jfif" alt="" class="user">
+                  <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam debitis saepe amet qui eligendi, recusandae reprehenderit in modi nesciunt aperiam labore eum laborum quisquam beatae consequatur deleniti sunt possimus voluptates?</blockquote>
+                  <h3>Name<br><span>some text</span></h3>
+              </div>
+
+          </div>
+
+          <div class="col-md-4 text-center">
+              <div class="profile">
+                  <img src="images/team1.jfif" alt="" class="user">
+                  <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam debitis saepe amet qui eligendi, recusandae reprehenderit in modi nesciunt aperiam labore eum laborum quisquam beatae consequatur deleniti sunt possimus voluptates?</blockquote>
+                  <h3>Name<br><span>some text</span></h3>
+              </div>
+
+          </div>
+      </div>
+  </div> 
+
+</section>
+
+
+<!-- contact section -->
+
+<section id="contact">
+  <div class="container">
+    <h3 class="title text-uppercase text-light text-center pt-3 pb-3 font-weight-bold custom-font-h3">contact</h3>
+      <div class="row">
+
+         <div class="col-lg-6 col-md-8">
             <div class="contact-box">
               <form>
                 <div class="form-group">
@@ -195,7 +326,7 @@
                 </div>
 
                 <div class="form-group text-center">
-                  <button class="text-uppercase btn btn-success" type="submit">send message</button>
+                  <button class="text-uppercase btn btn-danger btn-block" type="submit">send message</button>
 
                 </div>
 
@@ -206,29 +337,52 @@
           </div>
 
           <div class="col-lg-6 col-md-4">
-            <div class="address-box text-white text-center text-md-left pl-lg-5">
+            <div class="address-box text-light text-center text-md-left pl-lg-5">
               <p>
-                <strong>Lorem ipsum dolor sit amet</strong><br>
-                Lorem ipsum dolor sit<br>
-                Lorem, ipsum dolor.<br>
-                Lorem, ipsum <br>
-                place<br>
-                <a class="text-white text-decoration-none" href="tel:468423165">4875465455</a><br>
-                <a class="text-white" href="mailto:abc@gmail.com">abc@gmail.com</a>
+                <strong>Peace<br>
+                  Kanholi Raghavan Nair Road<br>
+                  off Mini Bye pass<br>
+                  P 0. PUTHIYARA<br>
+                  CALICUT 673 004<br>
+                  </strong><br>
+                
+                <a class="text-light text-decoration-none" href="tel:+91 8848118168">+91 8848118168</a><br>
+                <a class="text-light" href=" info@cybercampusedu.com"> info@cybercampusedu.com</a>
               </p>
 
             </div>
 
           </div>
+
           
-
-        </div>
       </div>
-    </section>
-    <footer class="bg-black pt-4 pb-4 text-center">
-      <p class="text-white-10">copyrights of fathima farhath</p>
+  </div>
 
-    </footer>
+</section>
+
+
+
+<!--Google map-->
+<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+  <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+    style="border:0" allowfullscreen></iframe>
+</div>
+
+<!--Google Maps-->
+
+<!-- <footer class="footer bg-danger pt-4 pb-4 text-center">
+  <p class="text-white">Copyright ©F CYBER CAMPUS EDU VENTURES LLP. All rights reserved. Powered by signrOots</p>
+
+</footer> -->
+
+<section id="footer">
+  <div class="container">
+      <p class="text-center">Copyright © CYBER CAMPUS EDU VENTURES LLP. All rights reserved. Powered by signrOots</p>
+
+  </div>
+
+</section>
+
 
 
 
@@ -238,8 +392,8 @@
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     
